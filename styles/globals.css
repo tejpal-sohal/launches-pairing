@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.hero{
+  padding: 8rem 8rem;
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/S20_Chopstick_Stack_Desktop_0c016b49ec.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+}
