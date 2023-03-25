@@ -1,6 +1,6 @@
 export default function Pagination( { totalPage, setPage, page } : any) {
   return (
-    <div className="d-flex">
+    <div className="d-flex mt-5">
       <ul className="pagination mx-auto ">
         <li className={page > 1 ? 'page-item' : 'page-item disabled'}>
           <a className='page-link' onClick={()=>{setPage(page-1)}} href='#'>Previous</a>

@@ -14,8 +14,13 @@ export default function Card({item}:any) {
           <div className="mt-2">
           <ul className="list-group list-group-flush">
             <li className="list-group-item"><strong>Date utc</strong> : {item.date_utc}</li>
-            <li className="list-group-item"><strong>Cores</strong> : {item.cores[0].core}</li>
             <li className="list-group-item"><strong>Payloads</strong> : {item.payloads}</li>
+            <li className="list-group-item"><strong>Cores</strong> : {item.cores[0].core}</li>
+            {item.details === null ? <></> :
+              <li className="list-group-item"><p className="bold">
+                Reason for {item.success ? "Success" : "Failure"}</p> <br/>
+                {item.details === null ? "k" : item.details}</li>
+            }
           </ul>
           </div>
         </div>
