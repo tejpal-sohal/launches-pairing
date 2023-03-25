@@ -26,9 +26,31 @@ a {
   background-position: 50% 10%;
 }
 
+main{
+  background-image: url("/wp2461878-mars-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 10%;
+}
+
+.card, .list-group-item {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+  color: #fff!important;
+
+
+}
+
+.footer{
+  background-color: aqua;
+}
+
+.card{
+  box-shadow: 5px 10px #888888;
+}
 
 .card:hover img {
     transition: all 0.2s ease-in-out;
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 

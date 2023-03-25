@@ -50,9 +50,10 @@ export default function Home() {
       </Head>
         <Hero />
       <main>
-        <div className='album py-5 bg-dark'>
+        <div className='album py-5'>
           <div className='container-fluid'>
-            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3'>
+            <h1 className="mb-5 text-light text-center">STARSHIP LUNAR EXPLORATION</h1>
+            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-3'>
               {data ? (
                 <>
                   {data.docs.map((item, k) => (
@@ -65,6 +66,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className='container d-none d-lg-block'>
           {data ? (<Pagination totalPage={data.totalPages} setPage={setPage} page={page} />) : ('')}
         </div>
