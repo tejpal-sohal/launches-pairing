@@ -49,7 +49,6 @@ export default function Home() {
             <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"/>
       </Head>
         <Hero />
-      <p>Welcome to my Next.js app!</p>
       <main>
         <div className='album py-5 bg-dark'>
           <div className='container-fluid'>
