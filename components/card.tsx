@@ -3,7 +3,7 @@ import React from 'react';
 export default function Card({ item }: any) {
   return (
     <div className='col d-flex'>
-      <div className='card shadow-sm' style={{ maxWidth: '540px' }}>
+      <div className='card shadow-sm'>
         <div className='p-3 text-center'>
           <h3>{item.name}</h3>
           <img
